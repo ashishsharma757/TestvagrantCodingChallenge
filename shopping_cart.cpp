@@ -6,7 +6,7 @@ private:
     char name[50];
     double cost, gst;
     int quantity;
-
+ 
 public:
     Product(const char* n, double c, double g, int qty)
         : cost(c), gst(g), quantity(qty) {
